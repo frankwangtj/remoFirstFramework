@@ -36,7 +36,9 @@ public class RunTestCase {
 
 	@AfterMethod
 	public void afterMethod() {
+		System.out.println("Complete the test-RunTestCase");
 		driver.close();
+		
 	}
 
 }
